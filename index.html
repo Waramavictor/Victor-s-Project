@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shawarma Express</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+</head>
+<body>
+    <div class="bg-container">
+    <header>
+        <h1>Welcome to Shawarma's Express</h1>
+        <p>Satisfy your shawarma cravings with just a few clicks!</p>
+    </header>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/6.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Shawarma express
+          </a>
+        </div>
+      </nav>
+      <form class="row row-cols-lg-auto g-3 align-items-center">
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+          <div class="input-group">
+            <div class="input-group-text">@</div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+          </div>
+        </div>
+      
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+          <select class="form-select" id="inlineFormSelectPref">
+            <option selected>Choose...</option>
+            <option value="1">sign in</option>
+            <option value="2">Sign up</option>
+          </select>
+        </div>
+      
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+            <label class="form-check-label" for="inlineFormCheck">
+              Remember me
+            </label>
+          </div>
+        </div>
+      
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    <div id="menu">
+        <h1 class="sub-title">Menu</h1>
+        <div class="menu-list">
+            <div class="food-item" id="food1">
+                <h2>Chicken Shawarma</h2>
+                <img src="assets/images/Chicken-Shawarma_.jpg" alt="Chicken Shawarma">
+                <p>Description: Delicious chicken shawarma wrapped in pita bread.</p>
+                <p>Price: $5</p>
+                <button class="order-btn" data-food="Chicken Shawarma">Order</button>
+                <button class="delete-btn" data-food="Chicken Shawarma">Delete</button>
+            </div>
+            <div class="food-item" id="food2">
+                <h2>Coke soda</h2>
+                <img src="assets/images/coca-cola_.webp" alt="Coke soda">
+                <p>Description: Refreshing cold Coke soda to go with your food order.</p>
+                <p>Price: $1</p>
+                <button class="order-btn" data-food="Coke soda">Order</button>
+                <button class="delete-btn" data-food="Coke soda">Delete</button>
+            </div>
+            <div class="food-item" id="food3">
+                <h2>Ice cream</h2>
+                <img src="assets/images/ice-cream-3.jpg" alt="Ice cream">
+                <p>Description: Delicious Ice cream to sooth your cravings.</p>
+                <p>Price: $2</p>
+                <button class="order-btn" data-food="Ice cream">Order</button>
+                <button class="delete-btn" data-food="Ice cream">Delete</button>
+            </div>
+            <div class="food-item" id="food4">
+                <h2>Burger</h2>
+                <img src="assets/images/2.jpg" alt="Burger">
+                <p>Description: Mouth watering Burger wrapped in pita buns.</p>
+                <p>Price: $3</p>
+                <button class="order-btn" data-food="Burger">Order</button>
+                <button class="delete-btn" data-food="Burger">Delete</button>
+            </div>
+            <div class="food-item" id="food5">
+                <h2>Chicken and chips</h2>
+                <img src="assets/images/Chicken and chips.jpg" alt="Chicken and chips">
+                <p>Description: Delicious crispy chicken and chips to fulfill your craving.</p>
+                <p>Price: $6</p>
+                <button class="order-btn" data-food="Chicken and chips">Order</button>
+                <button class="delete-btn" data-food="Chicken and chips">Delete</button>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@shawarmaexpress.com</p>
+        <p>Phone: +1234567890</p>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

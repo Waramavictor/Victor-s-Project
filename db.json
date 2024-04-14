@@ -1,0 +1,41 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "name": "Chicken Shawarma",
+        "image": "assets/images/Chicken-Shawarma_.jpg",
+        "description": "Delicious chicken shawarma wrapped in pita bread.",
+        "price": 5
+      },
+      {
+        "id": 2,
+        "name": "Coke soda",
+        "image": "assets/images/coca-cola_.webp",
+        "description": "Refreshing cold Coke soda to go with your food order.",
+        "price": 1
+      },
+      {
+        "id": 3,
+        "name": "Ice cream",
+        "image": "assets/images/ice-cream-3.jpg",
+        "description": "Delicious Ice cream to soothe your cravings.",
+        "price": 2
+      },
+      {
+        "id": 4,
+        "name": "Burger",
+        "image": "assets/images/2.jpg",
+        "description": "Mouthwatering Burger wrapped in pita buns.",
+        "price": 3
+      },
+      {
+        "id": 5,
+        "name": "Chicken and chips",
+        "image": "assets/images/Chicken and chips.jpg",
+        "description": "Delicious crispy chicken and chips to fulfill your craving.",
+        "price": 6
+      }
+    ]
+  }
+  
+  
